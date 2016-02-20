@@ -8,4 +8,4 @@ All Lemmas proven using PVS in my [Lab5](https://github.com/skylerto/Software-En
 
 ## License
 
-MIT (c) Skyler Layne 2016
+Copyright © 2016 Skyler Layne
