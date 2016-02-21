@@ -1,1 +1,4 @@
+src/*.hi
+src/*.o
+
 bin/
