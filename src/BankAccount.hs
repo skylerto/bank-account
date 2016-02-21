@@ -1,7 +1,4 @@
 module BankAccount where
-  
-import Data.List
-import System.IO
 
 {-
   Bank Account Data Type.
