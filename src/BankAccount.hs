@@ -14,7 +14,7 @@ data BankAccount = BankAccount {
 deposit :: BankAccount -> Int -> IO (BankAccount)
 withdraw :: BankAccount -> Int -> IO (BankAccount)
 transfer :: BankAccount -> BankAccount -> Int -> IO (BankAccount, BankAccount)
-printbal :: BankAccount -> Int
+printbal :: BankAccount -> IO (Int)
 
 {-
   Function Declarations
@@ -40,4 +40,4 @@ transfer from to amount
 
 
 -- Print the Balance
-printbal account = balance account
+printbal account = return balance account
